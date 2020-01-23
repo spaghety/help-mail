@@ -1,0 +1,39 @@
+{
+  "name": "help-mail",
+  "version": "0.0.0",
+  "description": "help mail is a site where anyone can get words of encouragement or advice, help mail is designed to be anonymous, welcoming, and comforting.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaghety/help-mail.git"
+  },
+  "keywords": [
+    "help",
+    "mail",
+    "website",
+    "app",
+    "depression",
+    "happy",
+    "networking",
+    "anonymous",
+    "interactive",
+    "socket",
+    "mysql"
+  ],
+  "author": "spaghety",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaghety/help-mail/issues"
+  },
+  "homepage": "https://github.com/spaghety/help-mail#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  }
+}
