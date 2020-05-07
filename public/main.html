@@ -3,11 +3,27 @@
     <meta charset="UTF-8">
     <meta name="description" content="A place to get words of encouragement or advice">
     <meta name="keywords" content="ibuprofen,noose,bridge,kill,suicide,commit,yourself,help,mail,messaging,advice,relationship,family,tylenol,bridge,bullying,hostile,abuse,sad,depression,anxiety,anxious,depressed">
-    <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/nzv8ecd.css">
+    <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/src/main.css" />
     <script type="text/javascript" src="/src/jquery.min.js"></script>
     <script type="text/javascript" src="/src/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://helpmail.io/socket.io/socket.io.js"></script>
     <title>Help Mail</title>
 </head>
 <body>
-    <h1>Website under development</h1>
+    <div class="container">
+        <div class="notescontainer"><div class="notebackground"></div><div class="topnoteoverlay"></div><textarea class="noteinput" placeholder="Say something encouraging"></textarea></div>
+        <div class="row allmailui">
+            <div class="mailbuttons">
+                <div class="mailbuttondiv composebuttondiv">New Request</div>
+                <div class="mailbuttondiv miscbuttondiv frequests">Find Requests</div>
+                <div class="mailbuttondiv miscbuttondiv mrequests">My Requests</div>
+            </div>
+            <div class="mailviewercontainer">
+            </div>
+        </div>
+    </div>
 </body>
+<script type="text/javascript" src="/src/main.js"></script>
+</html>
